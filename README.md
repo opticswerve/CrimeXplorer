@@ -2,9 +2,11 @@
 
 ## Build instructions
 
-npm install
+Install the required packages: npm install
 
-npm run dev
+Run the dev server: npm run dev
+
+ESlint: npm run lint
 
 ## Web version
 
