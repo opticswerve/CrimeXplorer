@@ -218,23 +218,16 @@ code {
 /* Tables
 ----------*/
 
-.table-wrap {
-	display: inline-block;
-	max-height: 75vh;
-	overflow: auto;
-}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 	text-align: left;
+	width: 100%;
 }
 
 thead {
 	background: var(--color-primary-alt);
 	color: #fff;
-	position: sticky;
-	top: 0;
 }
 
 tr {

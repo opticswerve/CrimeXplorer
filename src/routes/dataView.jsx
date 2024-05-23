@@ -193,22 +193,21 @@ function DataView() {
 		crimeTable = <section key={ category }>
 			<h2>{ category.replaceAll('-', ' ') }</h2>
 
-			<div className='table-wrap'>
-				<table>
-					<thead>
-						<tr>
-							<th>Postcode</th>
-							<th>Date</th>
-							<th>Street</th>
-							<th>Outcome</th>
-						</tr>
-					</thead>
+			<table>
+				<thead>
+					<tr>
+						<th>Postcode</th>
+						<th>Date</th>
+						<th>Street</th>
+						<th>Outcome</th>
+					</tr>
+				</thead>
 
-					<tbody>
-						{ crimeRows }
-					</tbody>
-				</table>
-			</div>
+				<tbody>
+					{ crimeRows }
+				</tbody>
+			</table>
+
 		</section>;
 	}
 
